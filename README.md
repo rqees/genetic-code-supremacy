@@ -2,10 +2,10 @@
 Is the universal genetic code the best one possible? I created this code to evaluate the hypothesis that the universal genetic code is optimized for minimizing codon neighbor distances, which reduces the impact of mutations. This project was part of a first year computational biology class (CSB195) at UofT. Below is the report I wrote as part of the project.
 
 
-Report 1
+Report
 ========
 
-Authors: Raees Kabir [✉](mailto:r.kabir@mail.utoronto.ca) 
+Author: Raees Kabir [✉](mailto:r.kabir@mail.utoronto.ca) 
 
 14 October 2024
 
@@ -48,8 +48,8 @@ PART 1: Generation and Evaluating Genetic Codes
 -   The evaluateRandomCodes() function writes each of sum of distance to a created file named "raees_report1_code_evaluations_v1.0.csv"
 
 PART 2: Plotting Histogram
-
--   Generated a histogram by reading data from "raees_report1_code_evaluations_v1.0.csv" with the distributions of sum distances on x-axis and the probability density on the y-axis. This indicates how likely certain sum distances are to occur, rather than just the number of occurrences.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcQ7wVvObj14bvj3jUUAbXNW8UUYSUFzg-bat_HqsNw1RA7gAVLzhAnZXi2Uf-iWu9ls5VXWA505mFPJmS_OtC-ur_mEelIfM4-ZrenEEk56jACeBTuh8fJxhCJz-QsR6evVaSRU4oIY7wp8rwDUL6Ic5ft?key=olavv0_KbGw_qZWlMvDEzg)
+(https://lh7-rt.googleusercontent.com/docsz/AD_4nXcQ7wVvObj14bvj3jUUAbXNW8UUYSUFzg-bat_HqsNw1RA7gAVLzhAnZXi2Uf-iWu9ls5VXWA505mFPJmS_OtC-ur_mEelIfM4-ZrenEEk56jACeBTuh8fJxhCJz-QsR6evVaSRU4oIY7wp8rwDUL6Ic5ft?key=olavv0_KbGw_qZWlMvDEzg)
+-   Generated a histogram by reading data from "raees_report1_code_evaluations_v1.0.csv" with the distributions of sum distances on x-axis and the probability density on the y-axis. This indicates how likely certain sum distances are to occur, rather than just the number of occurrences.![]
 
 -   Overlaid normal distribution curve over the histogram.
 
