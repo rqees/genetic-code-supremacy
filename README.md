@@ -48,10 +48,11 @@ PART 1: Generation and Evaluating Genetic Codes
 -   The evaluateRandomCodes() function writes each of sum of distance to a created file named "raees_report1_code_evaluations_v1.0.csv"
 
 PART 2: Plotting Histogram
-(https://lh7-rt.googleusercontent.com/docsz/AD_4nXcQ7wVvObj14bvj3jUUAbXNW8UUYSUFzg-bat_HqsNw1RA7gAVLzhAnZXi2Uf-iWu9ls5VXWA505mFPJmS_OtC-ur_mEelIfM4-ZrenEEk56jACeBTuh8fJxhCJz-QsR6evVaSRU4oIY7wp8rwDUL6Ic5ft?key=olavv0_KbGw_qZWlMvDEzg)
--   Generated a histogram by reading data from "raees_report1_code_evaluations_v1.0.csv" with the distributions of sum distances on x-axis and the probability density on the y-axis. This indicates how likely certain sum distances are to occur, rather than just the number of occurrences.![]
-
+-   Generated a histogram by reading data from "raees_report1_code_evaluations_v1.0.csv" with the distributions of sum distances on x-axis and the probability density on the y-axis. This indicates how likely certain sum distances are to occur, rather than just the number of occurrences.
 -   Overlaid normal distribution curve over the histogram.
+ 
+ ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcQ7wVvObj14bvj3jUUAbXNW8UUYSUFzg-bat_HqsNw1RA7gAVLzhAnZXi2Uf-iWu9ls5VXWA505mFPJmS_OtC-ur_mEelIfM4-ZrenEEk56jACeBTuh8fJxhCJz-QsR6evVaSRU4oIY7wp8rwDUL6Ic5ft?key=olavv0_KbGw_qZWlMvDEzg)
+
 
 PART 3: Calculating Results
 
