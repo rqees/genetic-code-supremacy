@@ -6,24 +6,8 @@ Objective
 
 This report evaluates the hypothesis that the universal genetic code is optimized for minimizing codon neighbor distances, which reduces the impact of mutations.
 
-Approach
---------
 
-Compare the observed value of the standard genetic code (1272.931) to that of randomized genetic codes based on codon similarity metrics.
-
-### 1 Background and Task for AI-Collaborator
-
--   Please collaborate with me on my first-year undergraduate Computational Foundations of Biology course Report 1 project.
-
--   Our task is to evaluate whether the universal genetic code is optimized for minimizing the distance between codon neighbors compared to randomized genetic codes.
-
--   We will do this using the programming language R, where we are already provided a similarity function for amino acids, a codon neighbor function which returns the 9 neighbors of a given codon, and a genetic code randomization function.
-
--   Using those functions, we need to make a realistic, random genetic code and calculate the pairwise distance between all codons and their codon neighbors. We must repeat this many times, record the results, and compare them to the standard genetic code.
-
--   At the end, we must interpret the observations with respect to the original question.
-
-### 2 Process
+### Process
 
 SETUP: Created a new file "Raees_Report1_v1.0.R" in myScripts folder.
 
@@ -56,7 +40,7 @@ PART 3: Calculating Results
 
 -   p-value
 
-### 3 Results
+### Results
 
 1.  Mean Sum of Distances of Random Codes:  1848.625
 
@@ -66,7 +50,7 @@ PART 3: Calculating Results
 
 4.  P-Value: 2.457198e-19
 
-### 4 Interpretation 
+### Interpretation 
 
 The results demonstrate the standard genetic code exhibits a sum of distances significantly lower than the mean of random genetic codes. With a z-score of about  -8.99, indicating nearly 9 standard deviations below the mean, and a p-value of approximately 2.46e-19, the likelihood of this occurring by chance is virtually zero. ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeLrZ_ZykHRzemgSm0rXKkSvySwDQ42AVW9tToWd5TRRI7nTyATziY2yKSPAHvCwy-6F2jKF5DcgeksnMhV5VCxc79BXB-RZIGQoj3nqp40r06TalPMzGjwIz-Xhs2ii0cAUxQzBe2q6XMDxEmsOXu7FJlz?key=olavv0_KbGw_qZWlMvDEzg)
 
