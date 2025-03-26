@@ -1,15 +1,5 @@
 # genetic-code-supremacy
-Is the universal genetic code the best one possible? I created this code to evaluate the hypothesis that the universal genetic code is optimized for minimizing codon neighbor distances, which reduces the impact of mutations. This project was part of a first year computational biology class (CSB195) at UofT. Below is the report I wrote as part of the project.
-
-
-Report
-========
-
-Author: Raees Kabir [✉](mailto:r.kabir@mail.utoronto.ca) 
-
-14 October 2024
-
-CSB195
+Is the universal genetic code the best one possible? I created this code to evaluate the hypothesis that the universal genetic code is optimized for minimizing codon neighbor distances, which reduces the impact of mutations.
 
 Objective
 ---------
